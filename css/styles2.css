@@ -1,0 +1,77 @@
+/*Selector de clase*/
+.cliente{
+    color:violet;
+}
+/*Selector de id sus nombres no se pueden repetir*/
+#cliente{
+color:white;
+}
+/*Selector por atributo*/
+[src="logo.jpg"]{
+    color:yellow;
+}
+/*Selector por elemento*/
+h1{
+    color:yellow;
+}
+/*Selector por conbinacion de descendentes*/
+.cliente.nombre{
+    color:violet;
+}
+/*Selector para todos los hijos*/
+.cliente>p{
+    color:wheat;
+}
+/*Selector para especificidad*/
+p{
+    color:green; 
+}
+p.parrafo{
+    color:rebeccapurple;
+}
+/*Colores*/
+/*Nombre  color: red;*/
+/*Hexadecimal color:#000000*/
+/*RGB color(255,193,7,1);*/
+
+/*Flexbox*/
+/*Fila*/
+.navegacion principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+/*Columna*/
+.navegacion principal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: flex-end;
+}
+/*BEM-Bloques, elementos,modificadores*/
+.card{}
+.card titulo{}
+.card imagen{}
+.card boton{}
+.card boton--activo{}
+
+/*Utility first (Propiedades por clase)*/
+.text-center{}
+.color-red-100{}
+.bg-blue-200{}
+.p2{}
+/*Modulos (clase padre+ la etiqueta)*/
+.card{}
+.card h2{}
+.card img{}
+.card a{}
+
+/**Responsive Web Desing con Media Queries*/
+@media(min-width:768px){
+
+}
+@media(min-width:992px){
+    
+}
